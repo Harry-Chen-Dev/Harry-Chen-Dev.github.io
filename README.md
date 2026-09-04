@@ -6,19 +6,15 @@
 
 ## 上线
 
-GitHub 上新建一个**公开**仓库，名字必须正好是 `Harry-Chen-Dev.github.io`，然后：
+已经上线：<https://harry-chen-dev.github.io/>
+
+仓库 `Harry-Chen-Dev/Harry-Chen-Dev.github.io`，公开，GitHub Pages 从 `main` 分支根目录发布。用户站点（`<用户名>.github.io`）推上去 Pages 会自动开，不用去 Settings 里点。
+
+之后改动直接推，一两分钟生效：
 
 ```bash
-cd ~/Developer/Harry-Chen-Dev.github.io
-git init
-git add -A
-git commit -m "Personal site with Shotsort support and privacy pages"
-git branch -M main
-git remote add origin git@github.com:Harry-Chen-Dev/Harry-Chen-Dev.github.io.git
-git push -u origin main
+git add -A && git commit -m "..." && git push
 ```
-
-推完到仓库 **Settings → Pages**，Source 选 `Deploy from a branch`，分支 `main` / 目录 `/ (root)`。首次生效通常要 1–2 分钟。
 
 ## 填进 App Store Connect 的网址
 
