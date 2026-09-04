@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shotsort Support — Harry Chen</title>
+<meta name="description" content="Help and contact for Shotsort, the on-device screenshot search app for iPhone.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%231F5A3D'/><path d='M11 9v14M21 9v14M11 16h10' stroke='%23F3F3F0' stroke-width='2.6' stroke-linecap='round'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <a class="wordmark" href="/">Harry Chen</a>
+  <nav>
+    <a href="/shotsort/">Shotsort</a>
+    <a href="/shotsort/support/" aria-current="page">Support</a>
+    <a href="/shotsort/privacy/">Privacy</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <p class="eyebrow" style="margin-top:56px">Support · Shotsort for iPhone</p>
+  <h1 style="margin-top:0">Shotsort Support</h1>
+  <p class="lead">Something broken, confusing, or missing? Write to me directly — one person reads this inbox.</p>
+
+  <div class="contact" style="margin-top:26px">
+    <div class="label">Email support</div>
+    <div class="addr"><a href="mailto:harrychendev@gmail.com?subject=Shotsort%20support">harrychendev@gmail.com</a></div>
+    <p>I usually reply within two business days. If you're reporting a problem, telling me your iPhone model and iOS version saves us a round trip.</p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <div class="faq">
+
+    <div>
+      <h3>Where do my screenshots go?</h3>
+      <p>Nowhere. Shotsort has no server and no account. Reading, categorising and searching all happen on your iPhone, and the app makes no network requests at all — you can use it with the network switched off and nothing changes.</p>
+    </div>
+
+    <div>
+      <h3>Why does it ask for my whole photo library?</h3>
+      <p>iOS cannot grant access to one album at a time — the permission it offers is for the photo library as a whole. Shotsort only ever opens the Screenshots album, and never reads or indexes anything else. If you would rather check that for yourself, the app works fine offline, so you can watch that nothing is sent anywhere.</p>
+    </div>
+
+    <div>
+      <h3>Why aren't categories filled in automatically on my iPhone?</h3>
+      <p>Automatic categories use Apple's on-device intelligence, which needs an iPhone 15 Pro or newer with Apple Intelligence turned on. Shotsort's <strong>Settings</strong> screen says which of the three it is on your iPhone: the model isn't supported here, Apple Intelligence is switched off, or the model is still downloading and will start helping once it lands.</p>
+      <p>None of that blocks anything. On every supported iPhone, Shotsort still reads every screenshot, still searches all of the text, still cleans up, and still sorts by rules — you just get to move the occasional shot to the right category by hand.</p>
+    </div>
+
+    <div>
+      <h3>It stopped scanning before it reached the end.</h3>
+      <p>That is deliberate. The first pass reads your 500 most recent screenshots and then stops, so a big library gives you something usable in a couple of minutes instead of an hour of waiting. If you have more than 500, Shotsort tells you how many are left and puts a <strong>Read them now</strong> button next to the number — tap it and it works through the rest.</p>
+      <p>Scanning also pauses whenever you leave the app, and picks up where it stopped. If the count really hasn't moved, force-quit the app and open it again — nothing is lost, because every batch is saved as it finishes. If it still won't move, email me.</p>
+    </div>
+
+    <div>
+      <h3>I deleted screenshots by accident. Can I get them back?</h3>
+      <p>Yes. Shotsort deletes through the system photo library, so anything it removes lands in <strong>Photos → Albums → Recently Deleted</strong> and stays there for 30 days. Open that album and tap Recover.</p>
+    </div>
+
+    <div>
+      <h3>Can I add my own categories?</h3>
+      <p>Not in this version. The eight categories are fixed, but you can move any individual screenshot to a different one from its detail screen. If custom categories are what you're missing, tell me — that feedback is what decides what gets built next.</p>
+    </div>
+
+    <div>
+      <h3>How do I delete everything Shotsort knows about me?</h3>
+      <p>Delete the app. Everything Shotsort writes — the extracted text, the categories, the index, and the five small thumbnails its widget draws from — lives on your iPhone and is removed with the app. Your screenshots themselves are untouched; they stay in Photos. You can also revoke photo access at any time in <strong>Settings → Apps → Shotsort → Photos</strong>, and Shotsort will stop reading anything new. The <a href="/shotsort/privacy/">privacy policy</a> lists exactly what is stored.</p>
+    </div>
+
+    <div>
+      <h3>Something else</h3>
+      <p>Feature requests, bug reports, and “this wording is confusing” notes are all welcome. Email <a href="mailto:harrychendev@gmail.com?subject=Shotsort%20support">harrychendev@gmail.com</a>.</p>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <p>See also: <a href="/shotsort/">what Shotsort does</a> and the <a href="/shotsort/privacy/">privacy policy</a>.</p>
+
+</main>
+
+<footer>
+  <span>© 2026 Harry Chen</span>
+  <span><a href="/">Home</a> · <a href="/shotsort/">Shotsort</a> · <a href="/shotsort/privacy/">Privacy</a></span>
+</footer>
+
+</body>
+</html>
