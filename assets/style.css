@@ -213,3 +213,8 @@ footer a:hover { color: var(--ink); }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* OpenPreview uses the same single-column layout and shared tokens. */
+.site nav { flex-wrap: wrap; }
+.product-icon { display: block; margin-top: 48px; border-radius: 18px; }
+.product-icon + h1 { margin-top: 24px; }
